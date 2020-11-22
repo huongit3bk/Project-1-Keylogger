@@ -8,7 +8,7 @@
 - Mã lớp học: 699557
 
 - Keylogger có nhiệm vụ: Ghi nhận những phím người dùng nhập vào và lưu vào một file txt.
-- Sử dụng CodeBlocks thêm một cờ mới trong Compiler Flag với tên là WindowsAPI và giá trị Compiler flags và Linker flags là -mwindows. Khi đó build chương trình thì dù tắt đi chương trình vẫn chạy ngầm và tự ghi nhận những kí tự người dùng nhập vào. Tắt đi bằng cách vào Details trong Task Manager, tìm đến Keylogger.exe và chọn End Process.
+- Sử dụng CodeBlocks thêm một cờ mới trong Compiler Flag với tên là WindowsAPI và giá trị Compiler flags và Linker flags là -mwindows. Khi đó build chương trình thì dù tắt đi chương trình vẫn chạy ngầm và tự ghi nhận những kí tự người dùng nhập vào. Hoặc có lựa chọn khác là chạy trực tiếp Keylogger.exe đã được build sẵn. Tắt hoàn toàn bằng cách vào Details trong Task Manager, tìm đến Keylogger.exe và chọn End Process.
 - Những công nghệ mới đã sử dụng trong project: WinAPI, hàm HOOK, các macro liên quan tới Keyboard, Virtual Key Code,...
 - Những hướng phát triển tiếp theo của project: 
   + Hoàn thành nốt những phím đặc biệt như: F1..F12, Insert, PageUp, PageDown, NumLock, CapsLock,...
